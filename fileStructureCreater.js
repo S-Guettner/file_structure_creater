@@ -4,7 +4,7 @@ const path = require('path');
 /* recursive true needed to create multiple folder */
 
 
-/* creates folder */
+/* creates folder   */
 fs.mkdir(`${process.cwd()}/assets`,{recursive : true},(err) =>{
     if(err) throw err;
     console.log("assets folder has been successfully created");
