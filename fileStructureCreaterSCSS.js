@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-/* recursive true needed to create multiple folder */
+/* recursive true needed to create  multiple folder */
 
 
 /* creates folder */
