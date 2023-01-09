@@ -1,17 +1,17 @@
 # file_system
 
 fileStructureCreater.js <br>
-creates assets/css/style.css
-creates assets/js/main.js
-creates assets/img
-creates assets/fonts
-creates assets/index.html
-
-fileStructureCreaterSCSS.js
-fileStructureCreater.js
-creates assets/css/style.css
-creates assets/css/style.scss
-creates assets/js/main.js
-creates assets/img
-creates assets/fonts
-creates assets/index.html
+creates assets/css/style.css<br>
+creates assets/js/main.js<br>
+creates assets/img<br>
+creates assets/fonts<br>
+creates assets/index.html<br>
+<br>
+fileStructureCreaterSCSS.js<br>
+fileStructureCreater.js<br>
+creates assets/css/style.css<br>
+creates assets/css/style.scss<br>
+creates assets/js/main.js<br>
+creates assets/img<br>
+creates assets/fonts<br>
+creates assets/index.html<br>
