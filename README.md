@@ -1,4 +1,6 @@
-# file_system
+# file_structure_creator
 
-# Erstellt Ordner Struktur und Dateien
+Erstellt Ordner Struktur und Dateien.
+
+
 
