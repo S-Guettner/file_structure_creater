@@ -16,6 +16,11 @@ fs.mkdir(`${process.cwd()}/assets/css`,{recursive : true},(err) =>{
     console.log("assets / css folder has been successfully created");
 }  )
 
+fs.mkdir(`${process.cwd()}/assets/scss`,{recursive : true},(err) =>{
+    if(err) throw err;
+    console.log("assets / css folder has been successfully created");
+}  )
+
 fs.mkdir(`${process.cwd()}/assets/js`,{recursive : true},(err) =>{
     if(err) throw err;
     console.log("assets / js folder has been successfully created");
@@ -34,7 +39,7 @@ fs.mkdir(`${process.cwd()}/assets/fonts`,{recursive : true},(err) =>{
 /* creates files */
 
 fs.writeFileSync('assets/css/style.css',' ',successLog);
-fs.writeFileSync('assets/css/style.scss',' ',successLog);
+fs.writeFileSync('assets/scss/style.scss',' ',successLog);
 fs.writeFileSync('assets/js/main.js',' ',successLog);
 fs.writeFileSync('index.html',' ',successLog);
 
