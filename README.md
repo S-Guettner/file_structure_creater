@@ -1,11 +1,12 @@
-# file_structure_creator
+## file_structure_creator
 
-Erstellt Ordner Struktur und Dateien.<br><br>1. Dateien in Projekt Ordner ziehen<br>2.<br>
+Erstellt Ordner Struktur und Dateien.<br><br>1. Dateien in Projekt Ordner ziehen<br><br>
+
 ```
-Für scss
+2.Für scss
 Im Terminal -->  node create-scss.js
 ```
 ```
-Für css
+2.Für css
 Im Terminal -->  node create-css.js
 ```
