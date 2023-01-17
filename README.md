@@ -11,7 +11,5 @@ Im Terminal -->  node create-scss.js
 Im Terminal -->  node create-css.js
 ```
 <br>
-<br>
-
 
 ![Alt text](./tumblr_myfhg6zC9S1sscqyuo1_500.webp)
