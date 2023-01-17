@@ -2,8 +2,8 @@
 
 Erstellt Ordner Struktur und Dateien.
 
-Für scss
+Für scss<br>
 Im Terminal -->  node create-scss.js
-
-Für css
+<br>
+Für css<br>
 Im Terminal -->  node create-css.js
