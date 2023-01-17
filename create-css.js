@@ -35,10 +35,10 @@ fs.mkdir(`${process.cwd()}/assets/fonts`,{recursive : true},(err) =>{
 
 
 /* creates files */
-fs.writeFileSync('assets/css/style.css',' ',successLog);
-fs.writeFileSync('assets/js/main.js',' ',successLog);
-fs.writeFileSync('index.html',' ',successLog);
+fs.writeFileSync('assets/css/style.css',' ',successLog());
+fs.writeFileSync('assets/js/main.js',' ',successLog());
+fs.writeFileSync('index.html',' ',successLog());
 
 function successLog(){
-    console.log("Yeahhhh files have been created successfully !");
+    console.log("Yeahhhh file have been created successfully !");
 }

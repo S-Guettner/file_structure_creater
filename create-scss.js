@@ -47,5 +47,5 @@ fs.writeFileSync('assets/js/main.js','',successLog());
 fs.writeFileSync('index.html','',successLog());
 
 function successLog(){
-    console.log("Yeahhhh files have been created successfully !");
+    console.log("Yeahhhh file have been created successfully !");
 }
