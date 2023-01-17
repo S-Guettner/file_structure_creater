@@ -10,4 +10,4 @@ Im Terminal -->  node create-scss.js
 2.Für css
 Im Terminal -->  node create-css.js
 ```
-![Alt text](../../Users/sveng/Downloads/tumblr_myfhg6zC9S1sscqyuo1_500.webp)
+![Alt text](./tumblr_myfhg6zC9S1sscqyuo1_500.webp)
