@@ -5,8 +5,8 @@ Erstellt Ordner Struktur und Dateien.<br>
 1. Dateien in Projekt Ordner ziehen<br>
 
 2.<br>
-Für scss<br>
-Im Terminal -->  node create-scss.js<br>
-oder<br>
-Für css<br>
-Im Terminal -->  node create-css.js
+    Für scss<br>
+    Im Terminal -->  node create-scss.js<br>
+    oder<br>
+    Für css<br>
+    Im Terminal -->  node create-css.js
