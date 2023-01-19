@@ -1,6 +1,6 @@
 ## file_structure_creator
 
-Erstellt Ordner Struktur und Dateien.<br><br>1. .js dateien in Projekt Ordner ziehen<br><br>
+Erstellt Ordner Struktur und Dateien.<br><br>1.   .js dateien in Projekt Ordner ziehen<br><br>
 
 ```
 2.Für scss
