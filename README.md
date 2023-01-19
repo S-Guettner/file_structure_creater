@@ -10,6 +10,10 @@ Im Terminal -->  node create-scss.js
 2.Für css
 Im Terminal -->  node create-css.js
 ```
+```
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(3.) Wenn Fehler auftritt nochmal node Befehl eingeben
+```
 <br>
 
 ![Alt text](./tumblr_myfhg6zC9S1sscqyuo1_500.webp)
