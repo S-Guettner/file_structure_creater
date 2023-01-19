@@ -18,7 +18,7 @@ fs.mkdir(`${process.cwd()}/assets/css`,{recursive : true},(err) =>{
 
 fs.mkdir(`${process.cwd()}/assets/scss`,{recursive : true},(err) =>{
     if(err) throw err;
-    console.log("assets / css folder has been successfully created");
+    console.log("assets / scss folder has been successfully created");
 }  )
 
 fs.mkdir(`${process.cwd()}/assets/js`,{recursive : true},(err) =>{
@@ -36,16 +36,15 @@ fs.mkdir(`${process.cwd()}/assets/fonts`,{recursive : true},(err) =>{
     console.log("assets / fonts folder has been successfully created");
 }  )
 
+
 /* creates files */
 
-fs.writeFileSync('assets/css/style.css','',successLog());
-fs.writeFileSync('assets/scss/style.scss','',successLog());
-fs.writeFileSync('assets/scss/_mixins.scss','',successLog());
-fs.writeFileSync('assets/scss/_variables.scss','',successLog());
-fs.writeFileSync('assets/scss/_media-queries.scss','',successLog());
-fs.writeFileSync('assets/js/main.js','',successLog());
-fs.writeFileSync('index.html','',successLog());
+fs.writeFileSync('assets/css/style.css','', () => console.log("style.css has been created"));
+fs.writeFileSync('assets/scss/style.scss','', () => console.log("style.scss has been created"));
+fs.writeFileSync('assets/scss/_mixins.scss','', () => console.log("_mixins.scss has been created"));
+fs.writeFileSync('assets/scss/_variables.scss','', () => console.log("_variables.scss has been created"));
+fs.writeFileSync('assets/scss/_media-queries.scss','', () => console.log("_media-queries.scss has been created"));
+fs.writeFileSync('assets/js/main.js','', () => console.log("main.js has been created"));
+fs.writeFileSync('index.html','', () => console.log("index.html has been created"));
 
-function successLog(){
-    console.log("Yeahhhh file has been created successfully !");
-}
+console.log("If there is an error delete folder and files if created and try again");
