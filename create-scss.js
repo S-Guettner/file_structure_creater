@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 
-/* recursive true needed to create  multiple folder */
+/* {recursive : true} needed to create folder in another folder  */
 /* creates folder */
 let folderCreator = () =>{
     fs.mkdir(`${process.cwd()}/assets`,{recursive : true},(err) =>{
