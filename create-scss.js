@@ -35,7 +35,7 @@ let folderCreator = () =>{
 
 /* creates files */
 let fileCreator = () =>{
-    fs.writeFileSync('index.html','',     () => console.log("index.html has been created 🥳"));
+    fs.writeFileSync('index.html','',() => console.log("index.html has been created 🥳"));
     fs.writeFileSync('assets/js/main.js','',() => console.log("main.js has been created 🥳"));
     fs.writeFileSync('assets/css/style.css','',() => console.log("style.css has been created 🥳"));
     fs.writeFileSync('assets/scss/style.scss','',() => console.log("style.scss has been created 🥳"));
