@@ -6,27 +6,27 @@ const path = require('path');
 /* recursive true needed to create  multiple folder */
 /* creates folder */
 fs.mkdir(`${process.cwd()}/assets`,{recursive : true},(err) =>{
-    if(err) throw console.log("An error has occured pls try again");
+    if(err) throw err;
     console.log("assets folder has been successfully created 🥳");
 }  )
 fs.mkdir(`${process.cwd()}/assets/css`,{recursive : true},(err) =>{
-    if(err) throw console.log("An error has occured pls try again");
+    if(err) throw err;
     console.log("assets / css folder has been successfully created 🥳");
 }  )
 fs.mkdir(`${process.cwd()}/assets/scss`,{recursive : true},(err) =>{
-    if(err) throw console.log("An error has occured pls try again");
+    if(err) throw err;
     console.log("assets / scss folder has been successfully created 🥳");
 }  )
 fs.mkdir(`${process.cwd()}/assets/js`,{recursive : true},(err) =>{
-    if(err) throw console.log("An error has occured pls try again");
+    if(err) throw err;
     console.log("assets / js folder has been successfully created 🥳");
 }  )
 fs.mkdir(`${process.cwd()}/assets/img`,{recursive : true},(err) =>{
-    if(err) throw console.log("An error has occured pls try again");
+    if(err) throw err;
     console.log("assets / img folder has been successfully created 🥳");
 }  )
 fs.mkdir(`${process.cwd()}/assets/fonts`,{recursive : true},(err) =>{
-    if(err) throw console.log("An error has occured pls try again");
+    if(err) throw err;
     console.log("assets / fonts folder has been successfully created 🥳");
 }  )
 
